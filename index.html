@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html class="dark" lang="pt-PT"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Barbearia Clássica - Agende o seu estilo com eficiência</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ce9b64",
+                        "primary-hover": "#b88a55",
+                        "background-light": "#f8f6f6", 
+                        "background-dark": "#0A0C0B",
+                        "background-card": "#151816",
+                        "text-primary": "#E1DCD0",
+                        "text-secondary": "#A8A29E",
+                    },
+                    fontFamily: {
+                        "display": ["Work Sans", "sans-serif"],
+                        "body": ["Work Sans", "sans-serif"],
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem", 
+                        "lg": "0.5rem", 
+                        "xl": "0.75rem", 
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0A0C0B; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #2e3331; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #ce9b64; 
+        }html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-background-dark text-text-primary font-display antialiased selection:bg-primary selection:text-white">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<a class="fixed bottom-6 right-6 z-50 inline-flex h-14 items-center justify-center rounded-full bg-primary px-7 text-base font-bold text-white shadow-xl shadow-primary/30 transition-all hover:bg-primary-hover focus:outline-none focus:ring-4 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background-dark animate-bounce-slow md:bottom-8 md:right-8 lg:bottom-10 lg:right-10" href="#contacto">
+<span class="material-symbols-outlined mr-2">calendar_month</span>
+                        Agende Agora
+                    </a>
+<header class="fixed top-0 left-0 right-0 z-50 bg-background-dark/90 backdrop-blur-md border-b border-white/5">
+<div class="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-8">
+<div class="flex items-center gap-3">
+<div class="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-white">
+<span class="material-symbols-outlined">content_cut</span>
+</div>
+<span class="text-xl font-bold tracking-tight text-text-primary uppercase">Barbearia Clássica</span>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium text-text-primary hover:text-primary transition-colors" href="#servicos">Serviços</a>
+<a class="text-sm font-medium text-text-primary hover:text-primary transition-colors" href="#precos">Preços</a>
+<a class="text-sm font-medium text-text-primary hover:text-primary transition-colors" href="#faq">FAQ</a>
+<a class="text-sm font-medium text-text-primary hover:text-primary transition-colors" href="#contacto">Contacto</a>
+<a class="text-sm font-medium text-text-primary hover:text-primary transition-colors" href="#localizacao">Localização</a>
+</nav>
+<button class="md:hidden text-text-primary">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</div>
+</header>
+<main class="flex-grow pt-5">
+<section class="relative flex items-center justify-center min-h-[90vh] lg:min-h-screen w-full overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center bg-no-repeat z-0" data-alt="Barbeiro profissional a realizar um corte de cabelo preciso e eficiente" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDpfhujEIxVhvrB2LLDBtBo2CbTHfLaArsX48qkNVdY1arQVjc6j7CEXId0TjfOquyQ3DZUovuYQQ7ZxnVYVU3w4JFPaCOsAUIp1ElY1ULrVxsBuY3TDrase2h8NKtdzKqURF9nAG3TPu_FIguMsBV8EtGmSz6Ytj0dvhU9GJ-tW3AVeUZHrW_st1Xlh4ghp5vYJCoMCUovm81CxD_-qaMULDYafDdMOa0XVrOKLQmAXN_6TLv2SrYSqHvjDyLGR_la8bzMr7p-IV8d");'></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark via-background-dark/80 to-background-dark/30 z-10"></div>
+<div class="relative z-20 container mx-auto px-6 lg:px-8 flex flex-col items-center text-center max-w-4xl pt-20">
+<span class="mb-4 inline-block rounded-full bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-primary backdrop-blur-sm border border-white/5">
+                        Conveniência e Qualidade
+                    </span>
+<h1 class="mb-6 text-5xl font-black leading-tight tracking-tight text-white md:text-6xl lg:text-7xl">
+                        Agende com <span class="text-primary">Rapidez</span> e Estilo
+</h1>
+<p class="mb-10 text-lg font-normal leading-relaxed text-text-secondary md:text-xl max-w-2xl mx-auto">
+                        Cortes e barbas impecáveis, agendamento simplificado. A sua próxima experiência de excelência está à distância de um clique.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-4 w-full justify-center">
+<a class="inline-flex h-14 min-w-[200px] items-center justify-center rounded-lg bg-primary px-8 text-base font-bold text-white transition-all hover:bg-primary-hover shadow-lg shadow-primary/20" href="#contacto">
+                            Agendar o seu Horário
+                        </a>
+<a class="inline-flex h-14 min-w-[200px] items-center justify-center rounded-lg border border-white/20 bg-white/5 px-8 text-base font-bold text-white transition-all hover:bg-white/10 backdrop-blur-sm" href="#servicos">
+                            Ver Serviços
+                        </a>
+</div>
+</div>
+</section>
+<section class="py-24 bg-background-dark relative" id="servicos">
+<div class="container mx-auto px-6 lg:px-8">
+<div class="mb-16 md:text-center max-w-3xl mx-auto">
+<h2 class="text-primary font-bold uppercase tracking-widest text-sm mb-3">Serviços que Valorizam o seu Tempo</h2>
+<h3 class="text-3xl md:text-4xl font-bold text-text-primary mb-6">Eficiência e Maestria</h3>
+<p class="text-text-secondary text-lg">Desfrute de uma experiência de barbearia premium, otimizada para a sua conveniência e com resultados impecáveis.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="group relative flex flex-col gap-4 rounded-xl border border-white/5 bg-background-card p-8 transition-all hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5">
+<div class="mb-2 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-white/5 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-2xl">content_cut</span>
+</div>
+<h4 class="text-xl font-bold text-text-primary">Corte Rápido e Preciso</h4>
+<p class="text-text-secondary text-sm leading-relaxed">Corte personalizado, com foco na eficiência e no resultado que procura.</p>
+</div>
+<div class="group relative flex flex-col gap-4 rounded-xl border border-white/5 bg-background-card p-8 transition-all hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5">
+<div class="mb-2 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-white/5 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-2xl">face</span>
+</div>
+<h4 class="text-xl font-bold text-text-primary">Barba Expresso</h4>
+<p class="text-text-secondary text-sm leading-relaxed">Toalha quente e modelagem profissional para um look cuidado em minutos.</p>
+</div>
+<div class="group relative flex flex-col gap-4 rounded-xl border border-white/5 bg-background-card p-8 transition-all hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5">
+<div class="mb-2 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-white/5 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-2xl">precision_manufacturing</span>
+</div>
+<h4 class="text-xl font-bold text-text-primary">Contorno a Navalha</h4>
+<p class="text-text-secondary text-sm leading-relaxed">Acabamento ultra-preciso com navalha, realçando cada detalhe do seu estilo.</p>
+</div>
+<div class="group relative flex flex-col gap-4 rounded-xl border border-white/5 bg-background-card p-8 transition-all hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5">
+<div class="mb-2 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-white/5 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-2xl">schedule</span>
+</div>
+<h4 class="text-xl font-bold text-text-primary">Pacotes Otimizados</h4>
+<p class="text-text-secondary text-sm leading-relaxed">Combinações de serviços pensadas para maximizar o seu tempo e resultado.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-[#0F1110] border-y border-white/5" id="precos">
+<div class="container mx-auto px-6 lg:px-8">
+<div class="mb-16 md:text-center max-w-3xl mx-auto">
+<h2 class="text-primary font-bold uppercase tracking-widest text-sm mb-3">Preços Transparentes e Simples</h2>
+<h3 class="text-3xl md:text-4xl font-bold text-text-primary mb-6">Escolha o seu Plano de Estilo</h3>
+<p class="text-text-secondary text-lg">Qualidade e conveniência com valores claros e diretos. Encontre o serviço ideal para si.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+<div class="flex flex-col gap-4 rounded-xl border border-white/5 bg-background-card p-8 text-center transition-all hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5">
+<h4 class="text-xl font-bold text-text-primary">Corte Simples</h4>
+<p class="text-sm text-text-secondary leading-relaxed">Corte de cabelo rápido e com estilo.</p>
+<div class="my-4">
+<span class="text-5xl font-bold text-primary">20€</span>
+</div>
+<ul class="text-sm text-text-secondary space-y-2 mb-6">
+<li class="flex items-center justify-center gap-2"><span class="material-symbols-outlined text-primary text-base">check_circle</span>Corte à máquina/tesoura</li>
+<li class="flex items-center justify-center gap-2"><span class="material-symbols-outlined text-primary text-base">check_circle</span>Lavagem e secagem</li>
+<li class="flex items-center justify-center gap-2"><span class="material-symbols-outlined text-primary text-base">check_circle</span>Penteado final</li>
+</ul>
+<a class="mt-auto inline-flex h-12 items-center justify-center rounded-lg bg-primary px-8 text-sm font-bold text-white transition-all hover:bg-primary-hover shadow-lg shadow-primary/20" href="#contacto">Agendar Corte</a>
+</div>
+<div class="relative flex flex-col gap-4 rounded-xl border border-primary/40 bg-background-card p-8 text-center shadow-[0_0_20px_rgba(223,62,37,0.15)]">
+<span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Popular</span>
+<h4 class="text-xl font-bold text-text-primary">Combo Total</h4>
+<p class="text-sm text-text-secondary leading-relaxed">Corte + Barba para um visual completo.</p>
+<div class="my-4">
+<span class="text-5xl font-bold text-primary">35€</span>
+</div>
+<ul class="text-sm text-text-secondary space-y-2 mb-6">
+<li class="flex items-center justify-center gap-2"><span class="material-symbols-outlined text-primary text-base">check_circle</span>Todos os benefícios do Corte</li>
+<li class="flex items-center justify-center gap-2"><span class="material-symbols-outlined text-primary text-base">check_circle</span>Ritual Barba Expresso</li>
+<li class="flex items-center justify-center gap-2"><span class="material-symbols-outlined text-primary text-base">check_circle</span>Toalha quente e óleos</li>
+</ul>
+<a class="mt-auto inline-flex h-12 items-center justify-center rounded-lg bg-primary px-8 text-sm font-bold text-white transition-all hover:bg-primary-hover shadow-lg shadow-primary/20" href="#contacto">Agendar Combo</a>
+</div>
+<div class="flex flex-col gap-4 rounded-xl border border-white/5 bg-background-card p-8 text-center transition-all hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5">
+<h4 class="text-xl font-bold text-text-primary">Barba Profunda</h4>
+<p class="text-sm text-text-secondary leading-relaxed">Cuidado completo para a sua barba.</p>
+<div class="my-4">
+<span class="text-5xl font-bold text-primary">18€</span>
+</div>
+<ul class="text-sm text-text-secondary space-y-2 mb-6">
+<li class="flex items-center justify-center gap-2"><span class="material-symbols-outlined text-primary text-base">check_circle</span>Modelagem profissional</li>
+<li class="flex items-center justify-center gap-2"><span class="material-symbols-outlined text-primary text-base">check_circle</span>Hidratação profunda</li>
+<li class="flex items-center justify-center gap-2"><span class="material-symbols-outlined text-primary text-base">check_circle</span>Massagem facial relaxante</li>
+</ul>
+<a class="mt-auto inline-flex h-12 items-center justify-center rounded-lg bg-primary px-8 text-sm font-bold text-white transition-all hover:bg-primary-hover shadow-lg shadow-primary/20" href="#contacto">Agendar Barba</a>
+</div>
+</div>
+<div class="mt-12 text-center">
+<a class="inline-flex h-12 items-center justify-center rounded-lg border border-white/20 text-white px-8 text-sm font-bold transition-all hover:bg-white/10" href="#">Conheça nossos pacotes</a>
+</div>
+</div>
+</section>
+<section class="py-24 bg-background-dark" id="faq">
+<div class="container mx-auto px-6 lg:px-8 max-w-4xl">
+<div class="text-center mb-12">
+<h2 class="text-primary font-bold uppercase tracking-widest text-sm mb-3">Dúvidas Frequentes</h2>
+<h3 class="text-3xl md:text-4xl font-bold text-text-primary">Respostas Rápidas para as suas Questões</h3>
+</div>
+<div class="space-y-4">
+<details class="group bg-background-card rounded-lg border border-white/5 open:bg-background-card/80 transition-all">
+<summary class="flex cursor-pointer list-none items-center justify-between p-6 font-medium text-text-primary">
+<span>É obrigatório marcar horário com antecedência?</span>
+<span class="material-symbols-outlined transition-transform group-open:rotate-180 text-text-secondary">expand_more</span>
+</summary>
+<div class="px-6 pb-6 text-text-secondary leading-relaxed">
+                                Para garantir o seu atendimento no horário desejado e otimizar o seu tempo, **recomendamos vivamente o agendamento online**. Aceitamos clientes sem marcação, mas a disponibilidade é limitada.
+                            </div>
+</details>
+<details class="group bg-background-card rounded-lg border border-white/5 open:bg-background-card/80 transition-all">
+<summary class="flex cursor-pointer list-none items-center justify-between p-6 font-medium text-text-primary">
+<span>Quais os métodos de pagamento aceites para maior conveniência?</span>
+<span class="material-symbols-outlined transition-transform group-open:rotate-180 text-text-secondary">expand_more</span>
+</summary>
+<div class="px-6 pb-6 text-text-secondary leading-relaxed">
+                                Pensando na sua comodidade, aceitamos numerário, Multibanco e MB WAY.
+                            </div>
+</details>
+<details class="group bg-background-card rounded-lg border border-white/5 open:bg-background-card/80 transition-all">
+<summary class="flex cursor-pointer list-none items-center justify-between p-6 font-medium text-text-primary">
+<span>Qual é a política para cancelamentos ou reagendamentos?</span>
+<span class="material-symbols-outlined transition-transform group-open:rotate-180 text-text-secondary">expand_more</span>
+</summary>
+<div class="px-6 pb-6 text-text-secondary leading-relaxed">
+                                Agradecemos que nos avise com **pelo menos 24 horas de antecedência** se precisar de cancelar ou reagendar. Assim, podemos gerir a nossa agenda de forma eficiente e atender outros clientes.
+                            </div>
+</details>
+<details class="group bg-background-card rounded-lg border border-white/5 open:bg-background-card/80 transition-all">
+<summary class="flex cursor-pointer list-none items-center justify-between p-6 font-medium text-text-primary">
+<span>Oferecem serviços para crianças?</span>
+<span class="material-symbols-outlined transition-transform group-open:rotate-180 text-text-secondary">expand_more</span>
+</summary>
+<div class="px-6 pb-6 text-text-secondary leading-relaxed">
+                                Sim! Temos profissionais pacientes e experientes em cortes infantis. Oferecemos um "Combo Pai e Filho" para uma experiência familiar eficiente e agradável.
+                            </div>
+</details>
+</div>
+</div>
+</section>
+<section class="py-24 bg-[#0F1110] border-t border-white/5" id="contacto">
+<div class="container mx-auto px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
+<div class="flex flex-col gap-8">
+<div>
+<h2 class="text-primary font-bold uppercase tracking-widest text-sm mb-3">Agende o seu Atendimento</h2>
+<h3 class="text-3xl md:text-4xl font-bold text-text-primary mb-6">Marcação Rápida e Simples</h3>
+<p class="text-text-secondary mb-8">
+                                    Clique no botão para agendar o seu horário com conveniência. Estamos ansiosos por cuidar do seu estilo!
+                                </p>
+<div class="flex gap-4 mb-8">
+<a class="h-10 w-10 flex items-center justify-center rounded-full bg-white/5 text-text-primary hover:bg-primary hover:text-white transition-colors border border-white/10" href="#">
+<span class="material-symbols-outlined text-sm">public</span>
+</a>
+<a class="h-10 w-10 flex items-center justify-center rounded-full bg-white/5 text-text-primary hover:bg-primary hover:text-white transition-colors border border-white/10" href="#">
+<span class="material-symbols-outlined text-sm">share</span>
+</a>
+<a class="h-10 w-10 flex items-center justify-center rounded-full bg-white/5 text-text-primary hover:bg-primary hover:text-white transition-colors border border-white/10" href="#">
+<span class="material-symbols-outlined text-sm">chat</span>
+</a>
+</div>
+</div>
+<a class="inline-flex h-14 min-w-[200px] items-center justify-center rounded-lg bg-primary px-8 text-base font-bold text-white transition-all hover:bg-primary-hover shadow-lg shadow-primary/20" href="#contacto">
+                            Agende o seu Horário
+                        </a>
+</div>
+<div class="flex flex-col gap-6" id="localizacao">
+<div class="rounded-xl overflow-hidden border border-white/10 h-full min-h-[400px] relative group">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Mapa da localização da barbearia em Lisboa, Portugal" data-location="Lisboa, Portugal" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAPywrnOt5dWc1-jgK2wE38rgYf1CRG8fKZB3kH10CJniuSCoZwStUJ0zWYTO5_rFEvnyd3rqCmLRJTXW7An6iDfHnZk6fk0m-YUh6oaX9o6-o7jzHsqQ4AKE6FkTfqFjyNUCW_TjAvd-FKkBz-zX1JWZo4MTWVUW0OdewMv1rpHrwFfz8POJ9-UD-ALd-Mglu0MFTocj7N3rOLPmCVLCdhQrSXWwVuo67H3-YA4NazIziv6ULtpOUk3J4E5ZkvnsovFSoR5KygUh00");'>
+</div>
+<div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors"></div>
+<div class="absolute bottom-6 left-6 right-6 bg-background-card/95 backdrop-blur-md p-6 rounded-lg border border-white/10 shadow-xl">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary mt-1">location_on</span>
+<div>
+<h4 class="font-bold text-text-primary">Barbearia Clássica</h4>
+<p class="text-text-secondary text-sm mt-1">Rua da Prata, 123<br/>1100-000 Lisboa, Portugal</p>
+</div>
+</div>
+<div class="mt-4 flex items-center gap-4 border-t border-white/10 pt-4">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm">call</span>
+<span class="text-text-secondary text-sm">+351 210 000 000</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm">mail</span>
+<span class="text-text-secondary text-sm">ola@barbeariaclassica.pt</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-background-dark border-t border-white/5 py-12">
+<div class="container mx-auto px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+<div class="col-span-1 md:col-span-1">
+<div class="flex items-center gap-2 mb-4">
+<div class="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-white">
+<span class="material-symbols-outlined text-sm">content_cut</span>
+</div>
+<span class="text-lg font-bold text-text-primary uppercase">Barbearia Clássica</span>
+</div>
+<p class="text-text-secondary text-sm leading-relaxed">
+                            A tradição encontra o estilo moderno. Cuidamos do seu visual com excelência e dedicação desde 2015, com foco na sua conveniência.
+                        </p>
+</div>
+<div>
+<h4 class="text-white font-bold mb-4">Links Rápidos</h4>
+<ul class="space-y-2 text-sm text-text-secondary">
+<li><a class="hover:text-primary transition-colors" href="#servicos">Serviços</a></li>
+<li><a class="hover:text-primary transition-colors" href="#precos">Preços</a></li>
+<li><a class="hover:text-primary transition-colors" href="#faq">FAQ</a></li>
+<li><a class="hover:text-primary transition-colors" href="#contacto">Agendar</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-bold mb-4">Serviços</h4>
+<ul class="space-y-2 text-sm text-text-secondary">
+<li>Corte Rápido e Preciso</li>
+<li>Barba Expresso</li>
+<li>Contorno a Navalha</li>
+<li>Pacotes Otimizados</li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-bold mb-4">Horário</h4>
+<ul class="space-y-2 text-sm text-text-secondary">
+<li class="flex justify-between">
+<span>Seg - Sex:</span>
+<span>09:00 - 20:00</span>
+</li>
+<li class="flex justify-between">
+<span>Sábado:</span>
+<span>09:00 - 18:00</span>
+</li>
+<li class="flex justify-between text-white/40">
+<span>Domingo:</span>
+<span>Fechado</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-text-secondary text-xs">
+                        © 2024 Barbearia Clássica. Todos os direitos reservados.
+                    </p>
+<div class="flex gap-6">
+<a class="text-text-secondary text-xs hover:text-white" href="#">Privacidade</a>
+<a class="text-text-secondary text-xs hover:text-white" href="#">Termos de Uso</a>
+<a class="text-text-secondary text-xs hover:text-white" href="#">Livro de Reclamações</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+
+</body></html>
